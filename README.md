@@ -306,10 +306,10 @@ npm run build
 - [x] Resume upload and job management
 - [x] Hybrid resume-job matching engine
 - [x] Explainability and skill-gap analysis
-- [ ] Live job-provider integration
-- [ ] Job import deduplication and freshness handling
-- [ ] End-to-end testing of live jobs and matching
-- [ ] Final UI polish and demo preparation
+- [x] Live job-provider integration
+- [x] Job import deduplication and freshness handling
+- [x] End-to-end testing of live jobs and matching
+- [x] Final UI polish and demo preparation
 
 ## Responsible Use
 
