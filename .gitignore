@@ -1,0 +1,40 @@
+# Environment files (never commit secrets)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Node / frontend
+node_modules/
+dist/
+build/
+frontend/dist/
+*.local
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local MySQL data dir used during verification
+.mysql/
+
+# Uploaded resumes (stored locally, never committed)
+backend/uploads/
+
+# Logs
+*.log
+npm-debug.log*

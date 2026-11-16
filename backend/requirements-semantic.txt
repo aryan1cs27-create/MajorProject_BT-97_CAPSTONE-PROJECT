@@ -1,0 +1,5 @@
+# Optional: local semantic similarity (Sentence Transformers).
+# Install with:  pip install -r requirements-semantic.txt
+# Without it the matching engine still works — the semantic component is
+# reported as unavailable and its weight is redistributed proportionally.
+sentence-transformers>=3.0
