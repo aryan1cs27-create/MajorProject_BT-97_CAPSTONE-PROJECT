@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="332" font-family="Segoe UI, Arial" font-size="12">
+<rect width="900" height="332" fill="#ffffff"/>
+<text x="20" y="24" font-size="15" font-weight="bold">NDCG@5 and NDCG@10 by system</text>
+<rect x="320" y="34" width="10" height="10" fill="#4e79a7"/><text x="336" y="43">NDCG@5</text>
+<rect x="410" y="34" width="10" height="10" fill="#f28e2b"/><text x="426" y="43">NDCG@10</text>
+<text x="20" y="82">Keyword baseline (TF-IDF)</text>
+<rect x="300" y="66" width="479" height="12" fill="#4e79a7"/>
+<text x="785" y="76" font-size="10">0.997</text>
+<rect x="300" y="80" width="475" height="12" fill="#f28e2b"/>
+<text x="781" y="90" font-size="10">0.987</text>
+<text x="20" y="116">Hybrid (60/15/25)</text>
+<rect x="300" y="100" width="479" height="12" fill="#4e79a7"/>
+<text x="785" y="110" font-size="10">0.997</text>
+<rect x="300" y="114" width="478" height="12" fill="#f28e2b"/>
+<text x="784" y="124" font-size="10">0.994</text>
+<text x="20" y="150">Ablation: required only</text>
+<rect x="300" y="134" width="478" height="12" fill="#4e79a7"/>
+<text x="784" y="144" font-size="10">0.995</text>
+<rect x="300" y="148" width="472" height="12" fill="#f28e2b"/>
+<text x="778" y="158" font-size="10">0.982</text>
+<text x="20" y="184">Ablation: preferred only</text>
+<rect x="300" y="168" width="455" height="12" fill="#4e79a7"/>
+<text x="761" y="178" font-size="10">0.947</text>
+<rect x="300" y="182" width="445" height="12" fill="#f28e2b"/>
+<text x="751" y="192" font-size="10">0.926</text>
+<text x="20" y="218">Ablation: semantic only</text>
+<rect x="300" y="202" width="478" height="12" fill="#4e79a7"/>
+<text x="784" y="212" font-size="10">0.994</text>
+<rect x="300" y="216" width="472" height="12" fill="#f28e2b"/>
+<text x="778" y="226" font-size="10">0.981</text>
+<text x="20" y="252">Ablation: no semantic (60/15/0)</text>
+<rect x="300" y="236" width="479" height="12" fill="#4e79a7"/>
+<text x="785" y="246" font-size="10">0.996</text>
+<rect x="300" y="250" width="477" height="12" fill="#f28e2b"/>
+<text x="783" y="260" font-size="10">0.992</text>
+<text x="20" y="286">Weights 50/20/30</text>
+<rect x="300" y="270" width="479" height="12" fill="#4e79a7"/>
+<text x="785" y="280" font-size="10">0.997</text>
+<rect x="300" y="284" width="478" height="12" fill="#f28e2b"/>
+<text x="784" y="294" font-size="10">0.995</text>
+<text x="20" y="320">Weights 70/10/20</text>
+<rect x="300" y="304" width="480" height="12" fill="#4e79a7"/>
+<text x="786" y="314" font-size="10">0.997</text>
+<rect x="300" y="318" width="477" height="12" fill="#f28e2b"/>
+<text x="783" y="328" font-size="10">0.993</text>
+</svg>

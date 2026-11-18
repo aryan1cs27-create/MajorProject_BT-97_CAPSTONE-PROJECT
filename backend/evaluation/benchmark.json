@@ -1,0 +1,1603 @@
+{
+  "notes": "Offline evaluation benchmark for MatchWise. Resumes and job descriptions are synthetic but realistic. relevance: 3 = strong fit (shortlist), 2 = plausible fit (shortlist, borderline), 1 = adjacent but not qualified, 0 = irrelevant. Relevant for Precision/Recall/NDCG is grade >= 2. Gold skills are the skills a human annotator sees stated in the document; they are the reference for the extraction accuracy study.",
+  "resumes": [
+    {
+      "id": "r1",
+      "candidate_name": "Arjun Mehta",
+      "text": "Arjun Mehta\nBackend Software Engineer\n\nSkills: Python, FastAPI, PostgreSQL, Docker, AWS, REST, Git\n\nExperience\nBackend Engineer, Fintech Solutions (2021-2025)\n- Built REST APIs with Python and FastAPI, serving two million requests per day.\n- Designed PostgreSQL schemas and optimised slow queries.\n- Containerised services with Docker and deployed to AWS.\n4 years of experience in backend development.\n\nEducation\nBachelor of Technology in Computer Science, 2021.",
+      "gold_skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Docker",
+        "AWS",
+        "REST",
+        "Git"
+      ]
+    },
+    {
+      "id": "r2",
+      "candidate_name": "Priya Sharma",
+      "text": "Priya Sharma\nFrontend Engineer\n\nSkills: JavaScript, TypeScript, React, Redux, HTML, CSS, Git\n\nExperience\nFrontend Engineer, ShopStack (2020-2025)\n- Built customer dashboards in React and TypeScript.\n- Managed application state with Redux.\n- Improved accessibility and responsive CSS layouts.\n5 years of experience building web interfaces.\n\nEducation\nBachelor of Engineering in Information Technology, 2020.",
+      "gold_skills": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Redux",
+        "HTML",
+        "CSS",
+        "Git"
+      ]
+    },
+    {
+      "id": "r3",
+      "candidate_name": "Neha Kulkarni",
+      "text": "Neha Kulkarni\nData Analyst\n\nSkills: SQL, Excel, Power BI, Tableau, Python\n\nExperience\nData Analyst, Retail Insights (2022-2025)\n- Wrote SQL queries against the sales warehouse.\n- Built monthly Excel and Power BI reports for leadership.\n- Created Tableau dashboards for regional performance.\n3 years of experience in business reporting.\n\nEducation\nBachelor of Commerce, 2022.",
+      "gold_skills": [
+        "SQL",
+        "Excel",
+        "Power BI",
+        "Tableau",
+        "Python"
+      ]
+    },
+    {
+      "id": "r4",
+      "candidate_name": "Rahul Verma",
+      "text": "Rahul Verma\nMachine Learning Engineer\n\nSkills: Python, PyTorch, scikit-learn, pandas, NumPy, NLP, Machine Learning, Hugging Face\n\nExperience\nML Engineer, Language AI Lab (2021-2025)\n- Trained NLP classifiers with PyTorch and Hugging Face transformers.\n- Built feature pipelines with pandas and NumPy.\n- Evaluated models with scikit-learn metrics.\n4 years of experience in applied machine learning.\n\nEducation\nMaster of Technology in Artificial Intelligence, 2021.",
+      "gold_skills": [
+        "Python",
+        "PyTorch",
+        "scikit-learn",
+        "pandas",
+        "NumPy",
+        "NLP",
+        "Machine Learning",
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "r5",
+      "candidate_name": "Vikram Singh",
+      "text": "Vikram Singh\nDevOps Engineer\n\nSkills: AWS, Kubernetes, Docker, Terraform, CI/CD, Jenkins, Linux\n\nExperience\nDevOps Engineer, CloudWorks (2019-2025)\n- Managed Kubernetes clusters on AWS.\n- Provisioned infrastructure with Terraform.\n- Built CI/CD pipelines in Jenkins and maintained Linux servers.\n6 years of experience in platform operations.\n\nEducation\nBachelor of Technology in Electronics, 2019.",
+      "gold_skills": [
+        "AWS",
+        "Kubernetes",
+        "Docker",
+        "Terraform",
+        "CI/CD",
+        "Jenkins",
+        "Linux"
+      ]
+    },
+    {
+      "id": "r6",
+      "candidate_name": "Ananya Rao",
+      "text": "Ananya Rao\nSecurity Analyst\n\nSkills: SIEM, Splunk, Incident Response, Python, AWS, CISSP\n\nExperience\nSOC Analyst, SecureNet (2020-2025)\n- Monitored SIEM alerts and investigated incidents in Splunk.\n- Led incident response for phishing and malware events.\n- Automated triage scripts in Python.\nCertification: CISSP\n5 years of experience in security operations.\n\nEducation\nBachelor of Science in Cybersecurity, 2020.",
+      "gold_skills": [
+        "SIEM",
+        "Splunk",
+        "Incident Response",
+        "Python",
+        "AWS",
+        "CISSP"
+      ]
+    },
+    {
+      "id": "r7",
+      "candidate_name": "Karan Malhotra",
+      "text": "Karan Malhotra\nAndroid Developer\n\nSkills: Kotlin, Android, REST, Firebase, Git\n\nExperience\nAndroid Developer, AppForge (2022-2025)\n- Built Android apps in Kotlin with modern UI patterns.\n- Integrated REST endpoints and Firebase notifications.\n3 years of experience in mobile development.\n\nEducation\nBachelor of Technology in Computer Science, 2022.",
+      "gold_skills": [
+        "Kotlin",
+        "Android",
+        "REST",
+        "Firebase",
+        "Git"
+      ]
+    },
+    {
+      "id": "r8",
+      "candidate_name": "Meera Iyer",
+      "text": "Meera Iyer\nJava Backend Engineer\n\nSkills: Java, Spring, MySQL, Kafka, Docker, AWS\n\nExperience\nSenior Backend Engineer, Payments Corp (2018-2025)\n- Built microservices in Java with Spring.\n- Designed MySQL schemas and Kafka event pipelines.\n- Deployed Docker containers on AWS.\n7 years of experience in backend engineering.\n\nEducation\nBachelor of Engineering in Computer Science, 2018.",
+      "gold_skills": [
+        "Java",
+        "Spring",
+        "MySQL",
+        "Kafka",
+        "Docker",
+        "AWS"
+      ]
+    },
+    {
+      "id": "r9",
+      "candidate_name": "Sahil Khan",
+      "text": "Sahil Khan\nQA Automation Engineer\n\nSkills: Selenium, pytest, Python, REST, Jenkins, Postman\n\nExperience\nQA Engineer, TestBridge (2021-2025)\n- Automated regression suites with Selenium and pytest.\n- Tested REST APIs manually and with Postman.\n- Integrated test runs into Jenkins.\n4 years of experience in quality assurance.\n\nEducation\nBachelor of Computer Applications, 2021.",
+      "gold_skills": [
+        "Selenium",
+        "pytest",
+        "Python",
+        "REST",
+        "Jenkins",
+        "Postman"
+      ]
+    },
+    {
+      "id": "r10",
+      "candidate_name": "Riya Nair",
+      "text": "Riya Nair\nFull-Stack Developer\n\nSkills: JavaScript, Node.js, Express, React, MongoDB, Git\n\nExperience\nJunior Developer, StartupHub (2024-2025)\n- Built REST APIs with Node.js and Express.\n- Created React components for the customer portal.\n- Stored data in MongoDB.\n1 year of experience in web development.\n\nEducation\nBachelor of Technology in Computer Science, 2024.",
+      "gold_skills": [
+        "JavaScript",
+        "Node.js",
+        "Express",
+        "React",
+        "MongoDB",
+        "Git",
+        "REST"
+      ]
+    }
+  ],
+  "jobs": [
+    {
+      "id": "j1",
+      "title": "Backend Engineer",
+      "company": "Fintech Solutions",
+      "location": "Bengaluru",
+      "employment_type": "full-time",
+      "description": "We are hiring a Backend Engineer to build payment services. You will design REST APIs with Python and FastAPI, model data in PostgreSQL, and ship services with Docker. Experience with AWS is preferred. 3+ years of backend experience required.",
+      "required_skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "preferred_skills": [
+        "AWS",
+        "REST"
+      ],
+      "minimum_experience": 3,
+      "gold_skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Docker",
+        "AWS",
+        "REST"
+      ]
+    },
+    {
+      "id": "j2",
+      "title": "Senior Frontend Engineer",
+      "company": "ShopStack",
+      "location": "Remote",
+      "employment_type": "full-time",
+      "description": "Build customer-facing dashboards in JavaScript, TypeScript and React. You will manage state with Redux and deliver responsive CSS. 4+ years of frontend experience required.",
+      "required_skills": [
+        "JavaScript",
+        "TypeScript",
+        "React"
+      ],
+      "preferred_skills": [
+        "Redux",
+        "CSS"
+      ],
+      "minimum_experience": 4,
+      "gold_skills": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Redux",
+        "CSS"
+      ]
+    },
+    {
+      "id": "j3",
+      "title": "Data Analyst",
+      "company": "Retail Insights",
+      "location": "Pune",
+      "employment_type": "full-time",
+      "description": "Analyse sales data using SQL and Excel. Create Tableau dashboards for leadership and automate recurring reports with Python. Power BI experience is a plus. 2+ years of analytics experience.",
+      "required_skills": [
+        "SQL",
+        "Excel",
+        "Tableau"
+      ],
+      "preferred_skills": [
+        "Python",
+        "Power BI"
+      ],
+      "minimum_experience": 2,
+      "gold_skills": [
+        "SQL",
+        "Excel",
+        "Tableau",
+        "Python",
+        "Power BI"
+      ]
+    },
+    {
+      "id": "j4",
+      "title": "Machine Learning Engineer",
+      "company": "Language AI Lab",
+      "location": "Hyderabad",
+      "employment_type": "full-time",
+      "description": "Train and deploy NLP models using Python and PyTorch. You will work on machine learning pipelines, process data with pandas, and fine-tune Hugging Face transformers. 3+ years of applied ML experience.",
+      "required_skills": [
+        "Python",
+        "PyTorch",
+        "NLP",
+        "Machine Learning"
+      ],
+      "preferred_skills": [
+        "pandas",
+        "Hugging Face"
+      ],
+      "minimum_experience": 3,
+      "gold_skills": [
+        "Python",
+        "PyTorch",
+        "NLP",
+        "Machine Learning",
+        "pandas",
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "j5",
+      "title": "DevOps Engineer",
+      "company": "CloudWorks",
+      "location": "Remote",
+      "employment_type": "full-time",
+      "description": "Operate Kubernetes clusters on AWS and provision infrastructure with Terraform. Maintain CI/CD pipelines and Linux servers. Docker experience preferred. 4+ years of DevOps experience.",
+      "required_skills": [
+        "AWS",
+        "Kubernetes",
+        "Terraform",
+        "CI/CD"
+      ],
+      "preferred_skills": [
+        "Docker",
+        "Linux"
+      ],
+      "minimum_experience": 4,
+      "gold_skills": [
+        "AWS",
+        "Kubernetes",
+        "Terraform",
+        "CI/CD",
+        "Docker",
+        "Linux"
+      ]
+    },
+    {
+      "id": "j6",
+      "title": "SOC Analyst",
+      "company": "SecureNet",
+      "location": "Gurugram",
+      "employment_type": "full-time",
+      "description": "Monitor SIEM alerts in Splunk and lead incident response investigations. Write Python automation for triage. CISSP certification preferred. 3+ years of SOC experience.",
+      "required_skills": [
+        "SIEM",
+        "Splunk",
+        "Incident Response"
+      ],
+      "preferred_skills": [
+        "Python",
+        "CISSP"
+      ],
+      "minimum_experience": 3,
+      "gold_skills": [
+        "SIEM",
+        "Splunk",
+        "Incident Response",
+        "Python",
+        "CISSP"
+      ]
+    },
+    {
+      "id": "j7",
+      "title": "Android Developer",
+      "company": "AppForge",
+      "location": "Bengaluru",
+      "employment_type": "full-time",
+      "description": "Build Android applications in Kotlin. Integrate REST services and Firebase messaging. Familiarity with Git is expected. 2+ years of Android development.",
+      "required_skills": [
+        "Kotlin",
+        "Android",
+        "REST"
+      ],
+      "preferred_skills": [
+        "Firebase",
+        "Git"
+      ],
+      "minimum_experience": 2,
+      "gold_skills": [
+        "Kotlin",
+        "Android",
+        "REST",
+        "Firebase",
+        "Git"
+      ]
+    },
+    {
+      "id": "j8",
+      "title": "Java Backend Engineer",
+      "company": "Payments Corp",
+      "location": "Mumbai",
+      "employment_type": "full-time",
+      "description": "Develop microservices in Java with Spring. Design MySQL schemas and Kafka event streams. Deploy services with Docker on AWS. 5+ years of backend experience.",
+      "required_skills": [
+        "Java",
+        "Spring",
+        "MySQL",
+        "Kafka"
+      ],
+      "preferred_skills": [
+        "Docker",
+        "AWS"
+      ],
+      "minimum_experience": 5,
+      "gold_skills": [
+        "Java",
+        "Spring",
+        "MySQL",
+        "Kafka",
+        "Docker",
+        "AWS"
+      ]
+    },
+    {
+      "id": "j9",
+      "title": "QA Automation Engineer",
+      "company": "TestBridge",
+      "location": "Pune",
+      "employment_type": "full-time",
+      "description": "Build test automation suites with Selenium and Python. Maintain pytest frameworks and integrate runs into Jenkins. 3+ years in quality assurance.",
+      "required_skills": [
+        "Selenium",
+        "Python",
+        "Test Automation"
+      ],
+      "preferred_skills": [
+        "pytest",
+        "Jenkins"
+      ],
+      "minimum_experience": 3,
+      "gold_skills": [
+        "Selenium",
+        "Python",
+        "Test Automation",
+        "pytest",
+        "Jenkins"
+      ]
+    },
+    {
+      "id": "j10",
+      "title": "Full-Stack Developer (Entry)",
+      "company": "StartupHub",
+      "location": "Remote",
+      "employment_type": "full-time",
+      "description": "Join as an entry-level full-stack developer. Build interfaces with JavaScript and React, and APIs with Node.js and Express. Data is stored in MongoDB. No professional experience required.",
+      "required_skills": [
+        "JavaScript",
+        "React",
+        "Node.js"
+      ],
+      "preferred_skills": [
+        "MongoDB",
+        "Express"
+      ],
+      "minimum_experience": 0,
+      "gold_skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express"
+      ]
+    },
+    {
+      "id": "j11",
+      "title": "Data Engineer",
+      "company": "Retail Insights",
+      "location": "Pune",
+      "employment_type": "full-time",
+      "description": "Build ETL pipelines in Python and SQL, orchestrated with Airflow. Model warehouse data in Snowflake using dbt. 3+ years of data engineering experience.",
+      "required_skills": [
+        "Python",
+        "SQL",
+        "ETL",
+        "Airflow"
+      ],
+      "preferred_skills": [
+        "Snowflake",
+        "dbt"
+      ],
+      "minimum_experience": 3,
+      "gold_skills": [
+        "Python",
+        "SQL",
+        "ETL",
+        "Airflow",
+        "Snowflake",
+        "dbt"
+      ]
+    },
+    {
+      "id": "j12",
+      "title": "Cloud Solutions Architect",
+      "company": "CloudWorks",
+      "location": "Remote",
+      "employment_type": "full-time",
+      "description": "Design multi-account AWS architectures and infrastructure as code with Terraform. Lead system design reviews. Kubernetes and CKA certification preferred. 8+ years of experience.",
+      "required_skills": [
+        "AWS",
+        "Terraform",
+        "System Design"
+      ],
+      "preferred_skills": [
+        "Kubernetes",
+        "CKA"
+      ],
+      "minimum_experience": 8,
+      "gold_skills": [
+        "AWS",
+        "Terraform",
+        "System Design",
+        "Kubernetes",
+        "CKA"
+      ]
+    },
+    {
+      "id": "j13",
+      "title": "MLOps Engineer",
+      "company": "Language AI Lab",
+      "location": "Hyderabad",
+      "employment_type": "full-time",
+      "description": "Own model deployment pipelines with MLOps practices. Containerise services with Docker, orchestrate on Kubernetes, and instrument monitoring with Prometheus and Grafana. Python required. 3+ years of experience.",
+      "required_skills": [
+        "MLOps",
+        "Docker",
+        "Kubernetes",
+        "Python"
+      ],
+      "preferred_skills": [
+        "Prometheus",
+        "Grafana"
+      ],
+      "minimum_experience": 3,
+      "gold_skills": [
+        "MLOps",
+        "Docker",
+        "Kubernetes",
+        "Python",
+        "Prometheus",
+        "Grafana"
+      ]
+    },
+    {
+      "id": "j14",
+      "title": "Penetration Tester",
+      "company": "SecureNet",
+      "location": "Remote",
+      "employment_type": "full-time",
+      "description": "Perform penetration testing against web applications following OWASP guidance. Build exploit tooling in Python. Knowledge of network security and CISSP certification preferred. 3+ years of security experience.",
+      "required_skills": [
+        "Penetration Testing",
+        "OWASP",
+        "Python"
+      ],
+      "preferred_skills": [
+        "Network Security",
+        "CISSP"
+      ],
+      "minimum_experience": 3,
+      "gold_skills": [
+        "Penetration Testing",
+        "OWASP",
+        "Python",
+        "Network Security",
+        "CISSP"
+      ]
+    },
+    {
+      "id": "j15",
+      "title": "Database Administrator",
+      "company": "Payments Corp",
+      "location": "Mumbai",
+      "employment_type": "full-time",
+      "description": "Administer MySQL clusters, perform performance tuning and capacity planning. Strong SQL and Linux skills required. 4+ years of database administration experience.",
+      "required_skills": [
+        "MySQL",
+        "Performance Tuning",
+        "Database Administration"
+      ],
+      "preferred_skills": [
+        "SQL",
+        "Linux"
+      ],
+      "minimum_experience": 4,
+      "gold_skills": [
+        "MySQL",
+        "Performance Tuning",
+        "Database Administration",
+        "SQL",
+        "Linux"
+      ]
+    },
+    {
+      "id": "j16",
+      "title": "Business Analyst",
+      "company": "Retail Insights",
+      "location": "Pune",
+      "employment_type": "full-time",
+      "description": "Gather requirements as a business analyst in an Agile team. Write SQL to validate metrics and present findings in Tableau. Jira experience preferred. 2+ years of experience.",
+      "required_skills": [
+        "Business Analysis",
+        "Agile",
+        "SQL"
+      ],
+      "preferred_skills": [
+        "Tableau",
+        "Jira"
+      ],
+      "minimum_experience": 2,
+      "gold_skills": [
+        "Business Analysis",
+        "Agile",
+        "SQL",
+        "Tableau",
+        "Jira"
+      ]
+    },
+    {
+      "id": "j17",
+      "title": "Embedded Firmware Engineer",
+      "company": "DeviceWorks",
+      "location": "Chennai",
+      "employment_type": "full-time",
+      "description": "Write firmware in C and C++ for embedded systems. Work with IoT devices and Linux toolchains. 3+ years of embedded development experience.",
+      "required_skills": [
+        "C",
+        "C++",
+        "Embedded Systems"
+      ],
+      "preferred_skills": [
+        "IoT",
+        "Linux"
+      ],
+      "minimum_experience": 3,
+      "gold_skills": [
+        "C",
+        "C++",
+        "Embedded Systems",
+        "IoT",
+        "Linux"
+      ]
+    },
+    {
+      "id": "j18",
+      "title": "iOS Developer",
+      "company": "AppForge",
+      "location": "Bengaluru",
+      "employment_type": "full-time",
+      "description": "Build iOS applications in Swift against REST backends. Write unit testing coverage and use Git for version control. 3+ years of iOS experience.",
+      "required_skills": [
+        "Swift",
+        "iOS",
+        "REST"
+      ],
+      "preferred_skills": [
+        "Git",
+        "Unit Testing"
+      ],
+      "minimum_experience": 3,
+      "gold_skills": [
+        "Swift",
+        "iOS",
+        "REST",
+        "Git",
+        "Unit Testing"
+      ]
+    },
+    {
+      "id": "j19",
+      "title": "Data Scientist",
+      "company": "Language AI Lab",
+      "location": "Hyderabad",
+      "employment_type": "full-time",
+      "description": "Apply machine learning to product analytics using Python and pandas. Build models with scikit-learn and query data with SQL. 3+ years of data science experience.",
+      "required_skills": [
+        "Machine Learning",
+        "Python",
+        "pandas"
+      ],
+      "preferred_skills": [
+        "scikit-learn",
+        "SQL"
+      ],
+      "minimum_experience": 3,
+      "gold_skills": [
+        "Machine Learning",
+        "Python",
+        "pandas",
+        "scikit-learn",
+        "SQL"
+      ]
+    },
+    {
+      "id": "j20",
+      "title": "Technical Support Engineer",
+      "company": "HelpDesk Pro",
+      "location": "Remote",
+      "employment_type": "full-time",
+      "description": "Provide customer support for Linux-based products. Troubleshoot networking issues and manage users in Active Directory. Bash scripting preferred. 2+ years of support experience.",
+      "required_skills": [
+        "Customer Support",
+        "Linux",
+        "Networking"
+      ],
+      "preferred_skills": [
+        "Active Directory",
+        "Bash"
+      ],
+      "minimum_experience": 2,
+      "gold_skills": [
+        "Customer Support",
+        "Linux",
+        "Networking",
+        "Active Directory",
+        "Bash"
+      ]
+    },
+    {
+      "id": "j21",
+      "title": "Software Engineer (Python Platform)",
+      "company": "Fintech Solutions",
+      "location": "Bengaluru",
+      "employment_type": "full-time",
+      "description": "Build platform services with Python and REST APIs. Ship with Docker and query SQL databases. AWS and Git experience preferred. 2+ years of experience.",
+      "required_skills": [
+        "Python",
+        "REST",
+        "Docker",
+        "SQL"
+      ],
+      "preferred_skills": [
+        "AWS",
+        "Git"
+      ],
+      "minimum_experience": 2,
+      "gold_skills": [
+        "Python",
+        "REST",
+        "Docker",
+        "SQL",
+        "AWS",
+        "Git"
+      ]
+    },
+    {
+      "id": "j22",
+      "title": "Backend Developer (Java)",
+      "company": "Payments Corp",
+      "location": "Mumbai",
+      "employment_type": "full-time",
+      "description": "Develop REST services in Java with Spring. Work with MySQL and Kafka event pipelines. Docker experience preferred. 3+ years of backend development.",
+      "required_skills": [
+        "Java",
+        "Spring",
+        "REST",
+        "MySQL"
+      ],
+      "preferred_skills": [
+        "Kafka",
+        "Docker"
+      ],
+      "minimum_experience": 3,
+      "gold_skills": [
+        "Java",
+        "Spring",
+        "REST",
+        "MySQL",
+        "Kafka",
+        "Docker"
+      ]
+    },
+    {
+      "id": "j23",
+      "title": "Site Reliability Engineer",
+      "company": "CloudWorks",
+      "location": "Remote",
+      "employment_type": "full-time",
+      "description": "Keep production reliable on Linux and Kubernetes. Build Prometheus monitoring and CI/CD pipelines. AWS and Terraform experience preferred. 4+ years of SRE experience.",
+      "required_skills": [
+        "Linux",
+        "Kubernetes",
+        "Prometheus",
+        "CI/CD"
+      ],
+      "preferred_skills": [
+        "AWS",
+        "Terraform"
+      ],
+      "minimum_experience": 4,
+      "gold_skills": [
+        "Linux",
+        "Kubernetes",
+        "Prometheus",
+        "CI/CD",
+        "AWS",
+        "Terraform"
+      ]
+    },
+    {
+      "id": "j24",
+      "title": "Frontend Developer (React Native)",
+      "company": "AppForge",
+      "location": "Remote",
+      "employment_type": "full-time",
+      "description": "Build cross-platform mobile apps with React Native. Strong JavaScript and React skills required. TypeScript and Git experience preferred. 2+ years of experience.",
+      "required_skills": [
+        "JavaScript",
+        "React",
+        "React Native"
+      ],
+      "preferred_skills": [
+        "TypeScript",
+        "Git"
+      ],
+      "minimum_experience": 2,
+      "gold_skills": [
+        "JavaScript",
+        "React",
+        "React Native",
+        "TypeScript",
+        "Git"
+      ]
+    },
+    {
+      "id": "j25",
+      "title": "Data Engineer (Azure)",
+      "company": "Retail Insights",
+      "location": "Pune",
+      "employment_type": "full-time",
+      "description": "Build ETL pipelines in Python and SQL on Microsoft Azure. Orchestrate jobs with Airflow and model data in Snowflake. 3+ years of data engineering experience.",
+      "required_skills": [
+        "Python",
+        "SQL",
+        "Microsoft Azure",
+        "ETL"
+      ],
+      "preferred_skills": [
+        "Airflow",
+        "Snowflake"
+      ],
+      "minimum_experience": 3,
+      "gold_skills": [
+        "Python",
+        "SQL",
+        "Microsoft Azure",
+        "ETL",
+        "Airflow",
+        "Snowflake"
+      ]
+    },
+    {
+      "id": "j26",
+      "title": "IT Support Specialist",
+      "company": "HelpDesk Pro",
+      "location": "Remote",
+      "employment_type": "full-time",
+      "description": "Support internal users on Windows Administration tasks and manage Active Directory accounts. Troubleshoot networking and Linux issues. 1+ year of IT support experience.",
+      "required_skills": [
+        "Customer Support",
+        "Windows Administration",
+        "Active Directory"
+      ],
+      "preferred_skills": [
+        "Networking",
+        "Linux"
+      ],
+      "minimum_experience": 1,
+      "gold_skills": [
+        "Customer Support",
+        "Windows Administration",
+        "Active Directory",
+        "Networking",
+        "Linux"
+      ]
+    },
+    {
+      "id": "j27",
+      "title": "Backend Engineer (Node.js)",
+      "company": "StartupHub",
+      "location": "Remote",
+      "employment_type": "full-time",
+      "description": "Build backend services with Node.js and Express. Model data in MongoDB and expose REST APIs. JavaScript and AWS experience preferred. 2+ years of backend development.",
+      "required_skills": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "REST"
+      ],
+      "preferred_skills": [
+        "JavaScript",
+        "AWS"
+      ],
+      "minimum_experience": 2,
+      "gold_skills": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "REST",
+        "JavaScript",
+        "AWS"
+      ]
+    },
+    {
+      "id": "j28",
+      "title": "Data Analyst (Marketing)",
+      "company": "Retail Insights",
+      "location": "Pune",
+      "employment_type": "full-time",
+      "description": "Analyse campaign performance using SQL and Excel. Present findings in Tableau and communicate recommendations to stakeholders. Power BI and Python experience preferred. 2+ years of analytics experience.",
+      "required_skills": [
+        "SQL",
+        "Excel",
+        "Tableau",
+        "Communication"
+      ],
+      "preferred_skills": [
+        "Power BI",
+        "Python"
+      ],
+      "minimum_experience": 2,
+      "gold_skills": [
+        "SQL",
+        "Excel",
+        "Tableau",
+        "Communication",
+        "Power BI",
+        "Python"
+      ]
+    },
+    {
+      "id": "j29",
+      "title": "Cloud Engineer",
+      "company": "CloudWorks",
+      "location": "Remote",
+      "employment_type": "full-time",
+      "description": "Run cloud infrastructure on AWS. Operate Docker workloads on Linux and maintain CI/CD pipelines. Terraform and Kubernetes experience preferred. 3+ years of cloud engineering.",
+      "required_skills": [
+        "AWS",
+        "Docker",
+        "Linux",
+        "CI/CD"
+      ],
+      "preferred_skills": [
+        "Terraform",
+        "Kubernetes"
+      ],
+      "minimum_experience": 3,
+      "gold_skills": [
+        "AWS",
+        "Docker",
+        "Linux",
+        "CI/CD",
+        "Terraform",
+        "Kubernetes"
+      ]
+    },
+    {
+      "id": "j30",
+      "title": "Frontend Engineer (Angular)",
+      "company": "ShopStack",
+      "location": "Remote",
+      "employment_type": "full-time",
+      "description": "Build web applications with JavaScript, Angular, HTML and CSS. TypeScript and Git experience preferred. 3+ years of frontend development.",
+      "required_skills": [
+        "JavaScript",
+        "Angular",
+        "HTML",
+        "CSS"
+      ],
+      "preferred_skills": [
+        "TypeScript",
+        "Git"
+      ],
+      "minimum_experience": 3,
+      "gold_skills": [
+        "JavaScript",
+        "Angular",
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "Git"
+      ]
+    },
+    {
+      "id": "j31",
+      "title": "Python Data Analyst",
+      "company": "Retail Insights",
+      "location": "Pune",
+      "employment_type": "full-time",
+      "description": "Analyse product data with Python, SQL and pandas. Create Tableau dashboards and Excel reports for stakeholders. 1+ year of analytics experience.",
+      "required_skills": [
+        "Python",
+        "SQL",
+        "pandas"
+      ],
+      "preferred_skills": [
+        "Tableau",
+        "Excel"
+      ],
+      "minimum_experience": 1,
+      "gold_skills": [
+        "Python",
+        "SQL",
+        "pandas",
+        "Tableau",
+        "Excel"
+      ]
+    },
+    {
+      "id": "j32",
+      "title": "Security Engineer (AppSec)",
+      "company": "SecureNet",
+      "location": "Remote",
+      "employment_type": "full-time",
+      "description": "Secure application code following OWASP guidance and application security reviews. Write Python tooling for scans. SIEM monitoring and CISSP certification preferred. 4+ years of security engineering.",
+      "required_skills": [
+        "Application Security",
+        "OWASP",
+        "Python"
+      ],
+      "preferred_skills": [
+        "SIEM",
+        "CISSP"
+      ],
+      "minimum_experience": 4,
+      "gold_skills": [
+        "Application Security",
+        "OWASP",
+        "Python",
+        "SIEM",
+        "CISSP"
+      ]
+    },
+    {
+      "id": "j33",
+      "title": "Site Reliability Engineer (Kubernetes)",
+      "company": "CloudWorks",
+      "location": "Remote",
+      "employment_type": "full-time",
+      "description": "Keep Kubernetes platforms reliable on Linux. Operate Docker workloads and instrument services with Prometheus and Grafana. AWS experience preferred. 3+ years of SRE experience.",
+      "required_skills": [
+        "Kubernetes",
+        "Linux",
+        "Docker",
+        "Prometheus"
+      ],
+      "preferred_skills": [
+        "Grafana",
+        "AWS"
+      ],
+      "minimum_experience": 3,
+      "gold_skills": [
+        "Kubernetes",
+        "Linux",
+        "Docker",
+        "Prometheus",
+        "Grafana",
+        "AWS"
+      ]
+    },
+    {
+      "id": "j34",
+      "title": "Full-Stack Engineer (TypeScript)",
+      "company": "ShopStack",
+      "location": "Remote",
+      "employment_type": "full-time",
+      "description": "Build full-stack features in TypeScript and React, with Node.js services on SQL databases. AWS and Docker experience preferred. 3+ years of experience.",
+      "required_skills": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "SQL"
+      ],
+      "preferred_skills": [
+        "AWS",
+        "Docker"
+      ],
+      "minimum_experience": 3,
+      "gold_skills": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "SQL",
+        "AWS",
+        "Docker"
+      ]
+    },
+    {
+      "id": "j35",
+      "title": "QA Engineer (Manual)",
+      "company": "TestBridge",
+      "location": "Pune",
+      "employment_type": "full-time",
+      "description": "Execute manual testing and QA cycles for web releases. Track defects in Jira and run regression tests. Selenium and Agile experience preferred. 1+ year of QA experience.",
+      "required_skills": [
+        "Manual Testing",
+        "QA",
+        "Jira"
+      ],
+      "preferred_skills": [
+        "Selenium",
+        "Agile"
+      ],
+      "minimum_experience": 1,
+      "gold_skills": [
+        "Manual Testing",
+        "QA",
+        "Jira",
+        "Selenium",
+        "Agile"
+      ]
+    },
+    {
+      "id": "j36",
+      "title": "Java Developer (Microservices)",
+      "company": "Payments Corp",
+      "location": "Mumbai",
+      "employment_type": "full-time",
+      "description": "Develop Java microservices with Spring and REST APIs. Work with Kafka event streams and Docker containers. 4+ years of experience.",
+      "required_skills": [
+        "Java",
+        "Spring",
+        "Microservices",
+        "REST"
+      ],
+      "preferred_skills": [
+        "Kafka",
+        "Docker"
+      ],
+      "minimum_experience": 4,
+      "gold_skills": [
+        "Java",
+        "Spring",
+        "Microservices",
+        "REST",
+        "Kafka",
+        "Docker"
+      ]
+    },
+    {
+      "id": "j37",
+      "title": "Android Developer (Kotlin)",
+      "company": "AppForge",
+      "location": "Bengaluru",
+      "employment_type": "full-time",
+      "description": "Build Android apps in Kotlin with Firebase integration. Consume REST services and maintain code in Git. 2+ years of Android development.",
+      "required_skills": [
+        "Kotlin",
+        "Android",
+        "Firebase"
+      ],
+      "preferred_skills": [
+        "REST",
+        "Git"
+      ],
+      "minimum_experience": 2,
+      "gold_skills": [
+        "Kotlin",
+        "Android",
+        "Firebase",
+        "REST",
+        "Git"
+      ]
+    },
+    {
+      "id": "j38",
+      "title": "Data Engineer (Spark)",
+      "company": "Retail Insights",
+      "location": "Pune",
+      "employment_type": "full-time",
+      "description": "Build data pipelines in Python and SQL with Apache Spark. Own ETL jobs orchestrated in Airflow on AWS. 3+ years of data engineering.",
+      "required_skills": [
+        "Python",
+        "SQL",
+        "Apache Spark",
+        "ETL"
+      ],
+      "preferred_skills": [
+        "Airflow",
+        "AWS"
+      ],
+      "minimum_experience": 3,
+      "gold_skills": [
+        "Python",
+        "SQL",
+        "Apache Spark",
+        "ETL",
+        "Airflow",
+        "AWS"
+      ]
+    },
+    {
+      "id": "j39",
+      "title": "Machine Learning Engineer (Computer Vision)",
+      "company": "Language AI Lab",
+      "location": "Hyderabad",
+      "employment_type": "full-time",
+      "description": "Train computer vision models with Python, Deep Learning and PyTorch. Deploy models with MLOps tooling; TensorFlow experience preferred. 3+ years of applied ML.",
+      "required_skills": [
+        "Python",
+        "Computer Vision",
+        "Deep Learning",
+        "PyTorch"
+      ],
+      "preferred_skills": [
+        "TensorFlow",
+        "MLOps"
+      ],
+      "minimum_experience": 3,
+      "gold_skills": [
+        "Python",
+        "Computer Vision",
+        "Deep Learning",
+        "PyTorch",
+        "TensorFlow",
+        "MLOps"
+      ]
+    },
+    {
+      "id": "j40",
+      "title": "DevOps Engineer (Azure)",
+      "company": "CloudWorks",
+      "location": "Remote",
+      "employment_type": "full-time",
+      "description": "Operate cloud platforms on Microsoft Azure with CI/CD, Docker and Terraform. Kubernetes and Linux experience preferred. 3+ years of DevOps experience.",
+      "required_skills": [
+        "Microsoft Azure",
+        "CI/CD",
+        "Docker",
+        "Terraform"
+      ],
+      "preferred_skills": [
+        "Kubernetes",
+        "Linux"
+      ],
+      "minimum_experience": 3,
+      "gold_skills": [
+        "Microsoft Azure",
+        "CI/CD",
+        "Docker",
+        "Terraform",
+        "Kubernetes",
+        "Linux"
+      ]
+    }
+  ],
+  "relevance": {
+    "r1": {
+      "j1": 3,
+      "j2": 0,
+      "j3": 1,
+      "j4": 1,
+      "j5": 1,
+      "j6": 0,
+      "j7": 0,
+      "j8": 1,
+      "j9": 1,
+      "j10": 1,
+      "j11": 1,
+      "j12": 1,
+      "j13": 1,
+      "j14": 0,
+      "j15": 1,
+      "j16": 1,
+      "j17": 0,
+      "j18": 0,
+      "j19": 1,
+      "j20": 0,
+      "j21": 3,
+      "j22": 1,
+      "j23": 1,
+      "j24": 0,
+      "j25": 1,
+      "j26": 0,
+      "j27": 1,
+      "j28": 0,
+      "j29": 2,
+      "j30": 0,
+      "j31": 1,
+      "j32": 1,
+      "j33": 1,
+      "j34": 1,
+      "j35": 0,
+      "j36": 1,
+      "j37": 0,
+      "j38": 1,
+      "j39": 1,
+      "j40": 1
+    },
+    "r2": {
+      "j1": 1,
+      "j2": 3,
+      "j3": 0,
+      "j4": 0,
+      "j5": 0,
+      "j6": 0,
+      "j7": 0,
+      "j8": 0,
+      "j9": 1,
+      "j10": 2,
+      "j11": 0,
+      "j12": 0,
+      "j13": 0,
+      "j14": 0,
+      "j15": 0,
+      "j16": 0,
+      "j17": 0,
+      "j18": 0,
+      "j19": 0,
+      "j20": 0,
+      "j21": 0,
+      "j22": 0,
+      "j23": 0,
+      "j24": 2,
+      "j25": 0,
+      "j26": 0,
+      "j27": 1,
+      "j28": 1,
+      "j29": 0,
+      "j30": 2,
+      "j31": 0,
+      "j32": 0,
+      "j33": 0,
+      "j34": 2,
+      "j35": 1,
+      "j36": 0,
+      "j37": 1,
+      "j38": 0,
+      "j39": 0,
+      "j40": 0
+    },
+    "r3": {
+      "j1": 0,
+      "j2": 0,
+      "j3": 3,
+      "j4": 1,
+      "j5": 0,
+      "j6": 0,
+      "j7": 0,
+      "j8": 0,
+      "j9": 1,
+      "j10": 0,
+      "j11": 2,
+      "j12": 0,
+      "j13": 0,
+      "j14": 0,
+      "j15": 1,
+      "j16": 2,
+      "j17": 0,
+      "j18": 0,
+      "j19": 1,
+      "j20": 0,
+      "j21": 1,
+      "j22": 0,
+      "j23": 0,
+      "j24": 0,
+      "j25": 2,
+      "j26": 0,
+      "j27": 0,
+      "j28": 3,
+      "j29": 0,
+      "j30": 0,
+      "j31": 3,
+      "j32": 0,
+      "j33": 0,
+      "j34": 1,
+      "j35": 1,
+      "j36": 0,
+      "j37": 0,
+      "j38": 2,
+      "j39": 0,
+      "j40": 0
+    },
+    "r4": {
+      "j1": 1,
+      "j2": 0,
+      "j3": 1,
+      "j4": 3,
+      "j5": 0,
+      "j6": 1,
+      "j7": 0,
+      "j8": 0,
+      "j9": 1,
+      "j10": 0,
+      "j11": 1,
+      "j12": 0,
+      "j13": 1,
+      "j14": 1,
+      "j15": 0,
+      "j16": 0,
+      "j17": 0,
+      "j18": 0,
+      "j19": 3,
+      "j20": 0,
+      "j21": 1,
+      "j22": 0,
+      "j23": 0,
+      "j24": 0,
+      "j25": 1,
+      "j26": 0,
+      "j27": 0,
+      "j28": 0,
+      "j29": 0,
+      "j30": 0,
+      "j31": 2,
+      "j32": 1,
+      "j33": 0,
+      "j34": 0,
+      "j35": 0,
+      "j36": 0,
+      "j37": 0,
+      "j38": 1,
+      "j39": 2,
+      "j40": 0
+    },
+    "r5": {
+      "j1": 1,
+      "j2": 0,
+      "j3": 0,
+      "j4": 0,
+      "j5": 3,
+      "j6": 0,
+      "j7": 0,
+      "j8": 1,
+      "j9": 1,
+      "j10": 0,
+      "j11": 0,
+      "j12": 2,
+      "j13": 1,
+      "j14": 0,
+      "j15": 1,
+      "j16": 0,
+      "j17": 1,
+      "j18": 0,
+      "j19": 0,
+      "j20": 1,
+      "j21": 1,
+      "j22": 1,
+      "j23": 2,
+      "j24": 0,
+      "j25": 0,
+      "j26": 1,
+      "j27": 0,
+      "j28": 0,
+      "j29": 3,
+      "j30": 0,
+      "j31": 0,
+      "j32": 0,
+      "j33": 3,
+      "j34": 0,
+      "j35": 0,
+      "j36": 0,
+      "j37": 0,
+      "j38": 0,
+      "j39": 0,
+      "j40": 2
+    },
+    "r6": {
+      "j1": 1,
+      "j2": 0,
+      "j3": 0,
+      "j4": 0,
+      "j5": 1,
+      "j6": 3,
+      "j7": 0,
+      "j8": 0,
+      "j9": 1,
+      "j10": 0,
+      "j11": 0,
+      "j12": 1,
+      "j13": 0,
+      "j14": 2,
+      "j15": 0,
+      "j16": 0,
+      "j17": 0,
+      "j18": 0,
+      "j19": 0,
+      "j20": 1,
+      "j21": 1,
+      "j22": 0,
+      "j23": 0,
+      "j24": 0,
+      "j25": 0,
+      "j26": 0,
+      "j27": 0,
+      "j28": 0,
+      "j29": 1,
+      "j30": 0,
+      "j31": 0,
+      "j32": 2,
+      "j33": 0,
+      "j34": 0,
+      "j35": 0,
+      "j36": 0,
+      "j37": 0,
+      "j38": 0,
+      "j39": 0,
+      "j40": 0
+    },
+    "r7": {
+      "j1": 1,
+      "j2": 1,
+      "j3": 0,
+      "j4": 0,
+      "j5": 0,
+      "j6": 0,
+      "j7": 3,
+      "j8": 0,
+      "j9": 0,
+      "j10": 1,
+      "j11": 0,
+      "j12": 0,
+      "j13": 0,
+      "j14": 0,
+      "j15": 0,
+      "j16": 0,
+      "j17": 0,
+      "j18": 2,
+      "j19": 0,
+      "j20": 0,
+      "j21": 1,
+      "j22": 0,
+      "j23": 0,
+      "j24": 1,
+      "j25": 0,
+      "j26": 0,
+      "j27": 1,
+      "j28": 0,
+      "j29": 0,
+      "j30": 0,
+      "j31": 0,
+      "j32": 0,
+      "j33": 0,
+      "j34": 0,
+      "j35": 0,
+      "j36": 0,
+      "j37": 3,
+      "j38": 0,
+      "j39": 0,
+      "j40": 0
+    },
+    "r8": {
+      "j1": 1,
+      "j2": 0,
+      "j3": 1,
+      "j4": 0,
+      "j5": 1,
+      "j6": 0,
+      "j7": 0,
+      "j8": 3,
+      "j9": 0,
+      "j10": 0,
+      "j11": 1,
+      "j12": 1,
+      "j13": 1,
+      "j14": 0,
+      "j15": 1,
+      "j16": 0,
+      "j17": 0,
+      "j18": 0,
+      "j19": 0,
+      "j20": 0,
+      "j21": 1,
+      "j22": 3,
+      "j23": 1,
+      "j24": 0,
+      "j25": 1,
+      "j26": 0,
+      "j27": 0,
+      "j28": 0,
+      "j29": 1,
+      "j30": 0,
+      "j31": 0,
+      "j32": 0,
+      "j33": 1,
+      "j34": 0,
+      "j35": 0,
+      "j36": 3,
+      "j37": 0,
+      "j38": 1,
+      "j39": 0,
+      "j40": 1
+    },
+    "r9": {
+      "j1": 1,
+      "j2": 0,
+      "j3": 0,
+      "j4": 0,
+      "j5": 1,
+      "j6": 0,
+      "j7": 0,
+      "j8": 0,
+      "j9": 3,
+      "j10": 1,
+      "j11": 0,
+      "j12": 0,
+      "j13": 0,
+      "j14": 0,
+      "j15": 0,
+      "j16": 0,
+      "j17": 0,
+      "j18": 0,
+      "j19": 0,
+      "j20": 1,
+      "j21": 2,
+      "j22": 0,
+      "j23": 1,
+      "j24": 0,
+      "j25": 0,
+      "j26": 0,
+      "j27": 1,
+      "j28": 0,
+      "j29": 1,
+      "j30": 0,
+      "j31": 1,
+      "j32": 0,
+      "j33": 1,
+      "j34": 1,
+      "j35": 2,
+      "j36": 1,
+      "j37": 0,
+      "j38": 0,
+      "j39": 0,
+      "j40": 0
+    },
+    "r10": {
+      "j1": 1,
+      "j2": 2,
+      "j3": 0,
+      "j4": 0,
+      "j5": 0,
+      "j6": 0,
+      "j7": 0,
+      "j8": 0,
+      "j9": 1,
+      "j10": 3,
+      "j11": 0,
+      "j12": 0,
+      "j13": 0,
+      "j14": 0,
+      "j15": 0,
+      "j16": 0,
+      "j17": 0,
+      "j18": 0,
+      "j19": 0,
+      "j20": 0,
+      "j21": 1,
+      "j22": 0,
+      "j23": 0,
+      "j24": 2,
+      "j25": 0,
+      "j26": 0,
+      "j27": 3,
+      "j28": 0,
+      "j29": 0,
+      "j30": 1,
+      "j31": 0,
+      "j32": 0,
+      "j33": 0,
+      "j34": 2,
+      "j35": 1,
+      "j36": 0,
+      "j37": 1,
+      "j38": 0,
+      "j39": 0,
+      "j40": 0
+    }
+  }
+}
